@@ -19,7 +19,7 @@ public class ProductController {
         Product p = new Product("iPhone 30", 5000.0);
         model.addAttribute("p1", p);
         model.addAttribute("p2", new Product());
-        model.addAttribute("items", items);  // dùng list toàn cục
+        model.addAttribute("items", items);
         return "poly/product";
     }
 
